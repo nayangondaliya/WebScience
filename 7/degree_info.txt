@@ -1,0 +1,17 @@
+Out Degree of a is: 2
+Out Degree of b is: 2
+Out Degree of c is: 2
+Out Degree of d is: 1
+Out Degree of e is: 2
+Out Degree of f is: 1
+Out Degree of g is: 2
+Out Degree of h is: 0
+
+In Degree of a is: 2
+In Degree of b is: 3
+In Degree of c is: 1
+In Degree of d is: 1
+In Degree of e is: 1
+In Degree of f is: 1
+In Degree of g is: 2
+In Degree of h is: 1

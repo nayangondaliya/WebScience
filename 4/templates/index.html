@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang = "en">
+<head> 
+<title> Index </title>
+<link rel = "stylesheet" type = "text/css" href="{{ url_for('static', filename='style.css') }}"/>
+</head>
+<body> 
+<h1>
+Assignment 4
+ </h1>
+ 
+<div class="up">
+  <div class = "txt"><a  href="{{ url_for('schedule') }}" class = "a">SCHEDULE</a></div>
+  <div>ASSIGNMENTS</div>
+  <div>FORUM</div>  
+  <div class = "txt">HELPDESK</div> 
+</div>
+
+<div class = "box">
+<section class = "left">
+<div>
+<h1 class = 'heading'>Content</h1>
+</div>
+<div>
+<ul class = "list">
+  <li><a href="https://en.wikipedia.org/wiki/Web_science">What is web science</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Web_science#Research_groups">Research Groups</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Web_science#Related_major_conferences">Major Confrences</a></li>
+</ul> 
+</div>
+</section>
+<aside class = "right">
+<div>
+<h1 class = 'heading'>Web Science</h1>
+</div>
+<div>
+<h2 class = 'heading2'>What is web Science</h2>
+</div>
+<div>
+<p>Web science is an emerging interdisciplinary field concerned with the study of large-scale socio-
+technical systems, particularly the World Wide Web.It considers the relationship between people 
+and technology, the ways that society and technology co-constitute one another and the impact of 
+this co-constitution on broader society. Web Science combines research from disciplines as diverse 
+as sociology, computer science, economics, and mathematics.
+</p>
+</div>
+<div>
+<h2 class = 'heading2'>Research Groups</h2>
+</div>
+<div>
+<p>There are numerous academic research groups engaged in Web Science research, many of which are 
+members of WSTNet, the Web Science Trust Network of research labs. Health Web Science emerged as a 
+sub-discipline of Web Science that studies the role of the Web's impact on human's health outcomes 
+and how to further utilize the Web to improve health outcomes.
+</p>
+</div>
+<div>
+<h2 class = 'heading2'>Related major conferences</h2>
+</div>
+<div>
+<ul class = 'reference'> 
+<li><a href="https://en.wikipedia.org/wiki/Association_for_Computing_Machinery">Association for Computing Machinery</a>(ACM), Hypertext Conference (HT) sponsored by SIGWEB</li>
+<li>ACM SIGCHI <a href="https://en.wikipedia.org/wiki/Conference_on_Human_Factors_in_Computing_Systems">Conference on Human Factors in Computing Systems</a>(CHI)</li>
+<li>International <a href = "https://en.wikipedia.org/wiki/Association_for_the_Advancement_of_Artificial_Intelligence">AAAI</a> Conference on Weblogs and Social Media (ICWSM) </li>
+<li><a href = "https://en.wikipedia.org/wiki/International_World_Wide_Web_Conference">The Web Conference</a>(WWW)</li>
+<li><a href = "https://en.wikipedia.org/wiki/Association_for_Computing_Machinery">Association for Computing Machinery</a> (ACM) Web Science Conference (WebSci)</li>
+</ul>
+</div>
+</aside>
+</div>
+
+<div class = "foot"><p id = "element1">All the information provided is taken from wikipedia.</p>
+
+
+<form id = "element2" method="post">
+  <p>Enter email and sign up to newsletter:</p>
+  <input type="text" name="semail">
+  <button type="submit">Sign Up</button>
+</form>
+</div>
+
+
+
+</body>
